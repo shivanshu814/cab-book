@@ -59,7 +59,7 @@ const TaxiOption: React.FC<TaxiOptionProps> = ({
 				<img src={imageUrl} alt='Taxi' className='object-cover w-full h-full' />
 			</div>
 			<div className='p-4 bg-gray-800 text-white'>
-				<p className='text-xl font-semibold mb-2'>${price} per km</p>
+				<p className='text-xl font-semibold mb-2'>Rs {price} per km</p>
 				<input
 					type='email'
 					placeholder='Enter your email'
